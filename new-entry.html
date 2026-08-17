@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Entry</title>
+  <link rel="stylesheet" href="new-entry.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="logo">My Website</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="new-entry.html">Editor</a>
+      <a href="vault.html">All Entries</a>
+    </nav>
+    <i class="fa-solid fa-bars icon"></i>
+  </header>
+
+  <!-- Form -->
+
+  <h1 class="title">New Reflection</h1>
+
+  <form id="entryForm">
+
+    <label for="title">Title</label>
+    <input type="text" id="title" name="title" placeholder="Enter title" />
+
+    <label for="reflection">Reflection</label>
+    <textarea id="reflection" name="reflection" placeholder="Write your reflection..." rows="10"></textarea>
+
+    <button type="submit" class="save-btn">Save</button>
+  </form>
+
+  <script src="new-entry.js"></script>
+</body>
+
+</html>
